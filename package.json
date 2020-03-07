@@ -1,0 +1,21 @@
+{
+  "name": "weather-program",
+  "version": "1.0.0",
+  "description": "CLI script used for checking current weather in the city",
+  "bin": {
+    "weather": "bin/weather"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Vladyslav Ganin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "minimist": "^1.2.0",
+    "ora": "^4.0.3"
+  }
+}
